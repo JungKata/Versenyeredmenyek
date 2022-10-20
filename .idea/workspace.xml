@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c89ff47-a9b2-4eff-aff2-63e96216e766" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/petrik/VersenyEredmenyek/Eredmeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/VersenyEredmenyek/Eredmeny.java" afterDir="false" />
+    <list default="true" id="6c89ff47-a9b2-4eff-aff2-63e96216e766" name="Changes" comment="kiiras">
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/VersenyEredmenyek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/VersenyEredmenyek/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +34,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jungk\OneDrive\Asztali gép\Java\Versenyeredmenyek" />
+      <recent name="C:\Users\jungk\OneDrive\Asztali gép\Java\Versenyeredmenyek\src" />
       <recent name="C:\Users\jungk\OneDrive\Asztali gép\Java\Versenyeredmenyek\src\hu\petrik\VersenyEredmenyek" />
     </key>
   </component>
@@ -53,6 +54,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666254660080</updated>
     </task>
+    <task id="LOCAL-00001" summary="kiiras">
+      <created>1666256648235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666256648235</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kiiras" />
+    <option name="LAST_COMMIT_MESSAGE" value="kiiras" />
   </component>
 </project>

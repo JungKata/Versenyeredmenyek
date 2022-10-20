@@ -12,12 +12,30 @@ public class Main {
         String fajlNev = "eredmenyek.txt";
         try {
             beolvas(fajlNev);
+            kiiras();
+            System.out.println("Sportagak száma:" + getSportagakSzama());
+            System.out.printf("Az olimpián %d versenyző vett részt:\n", getVersenyzokSzama());
+
         }catch (FileNotFoundException e){
             System.out.printf("Nem található a %s fajl", fajlNev);;
         }
+    }
 
-        System.out.println();
-        kiiras();
+    private static int getVersenyzokSzama() {
+        List<String> versenyzok = new ArrayList<>();
+        for (Map.Entry<String, List<Eredmeny>> entry: sportagEredmenyek.entrySet()) {
+            List<Eredmeny> eremenyek = entry.getValue();
+            for (Eredmeny e:eremenyek) {
+                if (!versenyzok.contains(e.getNev())){
+                    versenyzok.add(e.getNev());
+                }
+            }
+        }
+        return versenyzok.size();
+    }
+
+    private static int getSportagakSzama(){
+        return sportagEredmenyek.keySet().size();
     }
 
     private static void kiiras(){
